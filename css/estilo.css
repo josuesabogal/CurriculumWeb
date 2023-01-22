@@ -1,0 +1,194 @@
+body {
+  background-color: rgb(196, 196, 196);
+}
+
+#contenido {
+  background-color: rgb(196, 196, 196);
+  margin: auto;
+  display: grid;
+  grid-template-columns: 33% auto;
+  max-width: 1200px;
+}
+
+#imagen-perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 20px solid rgb(61, 131, 61);
+}
+
+#perfil {
+  display: grid;
+  grid-template-rows: 33% 10% 20% 15% auto;
+  justify-items: center;
+  background-color: rgb(249, 249, 249);
+  padding: 10px;
+  height: 95vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.texto-center {
+  text-align: center;
+}
+
+.perfil-contacto {
+  display: grid;
+  align-content: end;
+}
+
+.boton {
+  background-color: rgb(61, 131, 61);
+  padding: 10px 80px;
+  text-decoration: none;
+  color: azure;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.boton:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.resumen-trabajo {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.resumen-img {
+  padding: 20px 10px 40px 20px;
+}
+
+.resumen-contenido {
+  padding: 20px 10px 40px;
+}
+
+.resumen-contenido h1 {
+  color: rgb(61, 131, 61);
+  background-color: rgb(255, 255, 255);
+  margin-left: -80px;
+}
+
+.resumen-img img {
+  width: 100%;
+}
+
+nav {
+  background-color: rgb(61, 131, 61);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.nav-link {
+  padding: 0px 10px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: rgb(61, 131, 61);
+}
+
+.habilidades {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.edu {
+  padding: 0px 0px 0px 50px;
+}
+
+.habil {
+  padding: 0px 0px 0px 90px;
+}
+
+.datos {
+  text-align: center;
+  font-size: 30px;
+}
+
+.instituto {
+  text-align: center;
+}
+
+.section-bw h2 {
+  color: rgb(61, 131, 61);
+}
+
+.section-co h2 {
+  color: rgb(0, 0, 0);
+}
+
+.instituto h2 {
+  color: rgb(61, 131, 61);
+}
+
+#cuerpo {
+  margin: 30px 0px 30px 30px;
+  background-color: rgb(255, 255, 255);
+}
+
+section {
+  padding: 50px 0px;
+}
+
+.section-co {
+  background-color: rgb(174, 213, 174);
+}
+
+section ul {
+  list-style-type: none;
+}
+
+.img-borde {
+  padding: 0px 30px 30px 0px;
+}
+
+.text-borde {
+  padding: 0px 30px 30px 30px;
+}
+
+.img-pa {
+  padding: 0px 15px 0px 30px;
+}
+
+.img-2-pa {
+  padding: 0px 30px 0px 15px;
+}
+
+.cont {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  text-align: center;
+}
+
+.cont h2 {
+  color: rgb(61, 131, 61);
+}
+
+.cont p {
+  font-size: 20px;
+}
+
+.img-w {
+  display: flex;
+  justify-content: center;
+}
+
+.link-ins {
+  text-decoration: none;
+  color: rgb(61, 131, 61);
+}
+
+.link-ins:hover {
+  background-color: rgb(61, 131, 61);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
